@@ -9,3 +9,4 @@ docker run --group-add 0 --name [nombre_contenedor_sin_corchetes] -p 20000:8080 
 # Para ejecutar SonarQube
 
 docker run -d --name [nombre_contenedor_sin_corchetes] -p 9000:9000 sonarqube
+
